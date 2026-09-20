@@ -386,7 +386,7 @@ function App() {
 
               <div className="profile-wrap">
                 <img
-                  src="/assets/veneel-profile.jpeg"
+                  src={`${import.meta.env.BASE_URL}assets/veneel-profile.jpeg`}
                   alt="Veneel Kumar A."
                 />
 
