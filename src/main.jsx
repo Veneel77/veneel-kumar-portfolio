@@ -346,7 +346,7 @@ function App() {
 
                 <a
                   className="secondary"
-                  href="/assets/Veneel-Kumar-CV.pdf"
+                  href={`${import.meta.env.BASE_URL}assets/Veneel-Kumar-CV.pdf`}
                   download
                 >
                   <Download size={16} />
